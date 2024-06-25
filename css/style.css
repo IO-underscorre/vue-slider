@@ -92,16 +92,7 @@ h1 {
     opacity: 75%;
 }
 
-/* Big images */
-#changing-image > img {
-    display: none;
-}
-
-#changing-image > img.active {
-    display: block;
-}
-
-#changing-image:hover > img.active {
+#changing-image:hover > img {
     filter: brightness(25%);
 }
 
@@ -118,7 +109,7 @@ h1 {
     z-index: 5;
 }
 
-#changing-image:hover > div.active {
+#changing-image:hover > .title-and-description {
     display: block;
 }
 
